@@ -1,4 +1,8 @@
 {
+  "plugins": [
+    "react",
+    "import"
+  ],
   "extends": [
     "airbnb"
   ],
@@ -25,7 +29,8 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".native.js"]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
       }
     }
   }
