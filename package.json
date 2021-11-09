@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jzarca01/react-native-chatbot-expo"
+    "url": "https://github.com/sibelly/react-native-chatbot-expo"
   },
   "keywords": [
     "react",
@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sibelly/react-native-chatbot-expo/pulls"
+    "url": "https://github.com/LucasBassetti/react-native-chatbot-expo/issues"
   },
-  "homepage": "https://github.com/sibelly/react-native-chatbot-expo#readme",
+  "homepage": "https://github.com/LucasBassetti/react-native-chatbot-expo#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^10.0.1",
@@ -64,10 +64,7 @@
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "random-id": "1.0.3",
-    "react": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-loading-dots": "^1.2.0",
-    "styled-components": "^5.3.3"
+    "react-native-loading-dots": "^1.2.0"
   },
   "peerDependencies": {
     "react": ">= 0.14.0 < 17.0.0-0",
