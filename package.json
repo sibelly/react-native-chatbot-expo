@@ -4,7 +4,7 @@
   "description": "React Native Chatbot for Expo",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint lib/*.jsx",
+    "lint": "./node_modules/.bin/eslint lib/*.js",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "test": "./node_modules/.bin/mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive tests/**/*.spec.js",
     "test:watch": "npm test -- --watch",
@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LucasBassetti/react-native-chatbot-expo/issues"
+    "url": "https://github.com/sibelly/react-native-chatbot-expo/pulls"
   },
-  "homepage": "https://github.com/LucasBassetti/react-native-chatbot-expo#readme",
+  "homepage": "https://github.com/sibelly/react-native-chatbot-expo#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^10.0.1",
@@ -72,6 +72,6 @@
   "peerDependencies": {
     "react": ">= 0.14.0 < 17.0.0-0",
     "react-native": ">= 0.45.0",
-    "styled-components": "^5.3.0"
+    "styled-components": ">= 2.0.0 < 4"
   }
 }
