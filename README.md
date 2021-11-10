@@ -7,13 +7,13 @@ A react native chatbot component to create conversation chats. Based on [react-s
 ## Getting Start
 
 ```bash
-npm install https://github.com/jzarca01/react-native-chatbot-expo --save
+npm install react-native-chatbot --save
 ```
 
 ## Usage
 
 ``` javascript
-import ChatBot from 'react-native-chatbot-expo';
+import ChatBot from 'react-native-chatbot';
 
 const steps = [
   {

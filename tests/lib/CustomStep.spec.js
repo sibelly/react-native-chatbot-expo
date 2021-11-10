@@ -18,6 +18,8 @@ describe('CustomStep', () => {
       step1: {
         id: '1',
         component: <Example />,
+        color: {},
+        loadingColor: '#4a4a4a'
       },
     };
     const step = steps.step1;
@@ -48,6 +50,7 @@ describe('CustomStep', () => {
         id: '1',
         component: <Example />,
         waitAction: true,
+        loadingColor: '#4a4a4a'
       },
     };
     const step = steps.step1;

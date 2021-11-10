@@ -16,6 +16,8 @@ describe('OptionsStep', () => {
       fontColor: '#000',
     },
     bubbleStyle: {},
+    optionStyle: {},
+    optionElementStyle: {},
     triggerNextStep: () => {},
   };
 
