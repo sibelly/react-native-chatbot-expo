@@ -64,7 +64,6 @@
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "random-id": "1.0.3",
-    "react-native-loading-dots": "^1.2.0",
     "styled-components": "^5.3.5"
   },
   "peerDependencies": {
